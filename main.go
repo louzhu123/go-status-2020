@@ -40,6 +40,7 @@ func main() {
 
 		// hrefs
 		gcrawl := gcrawl.New51job()
+		conditions["page"] = page
 		res := gcrawl.Where(conditions).Get()
 
 		// moreInfo
