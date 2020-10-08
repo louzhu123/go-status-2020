@@ -22,7 +22,7 @@ type Data struct {
 var (
 	mysql_user = "root"
 	mysql_pwd  = "root"
-	mysql_db   = "gcrawl"
+	mysql_db   = "gcrwal"
 	conditions = map[string]interface{}{ //  https://github.com/louzhu123/gcrawl
 		"position": "后端开发",
 	}

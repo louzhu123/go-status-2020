@@ -5,7 +5,7 @@
  Source Server Type    : MySQL
  Source Server Version : 80012
  Source Host           : localhost:3306
- Source Schema         : go-status-2020
+ Source Schema         : gcrawl
 
  Target Server Type    : MySQL
  Target Server Version : 80012
