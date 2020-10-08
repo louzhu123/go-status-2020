@@ -29,7 +29,7 @@ var (
 )
 
 func main() {
-	var page = 681
+	var page = 1
 
 	for {
 		if page == 2000 {
