@@ -1,2 +1,2 @@
 # go-status-2020
-2020go岗位爬虫分析
+[USAGE.md](./USAGE.md)
