@@ -22,17 +22,17 @@ type Data struct {
 var (
 	mysql_user = "root"
 	mysql_pwd  = "root"
-	mysql_db   = "gcrwal"
+	mysql_db   = "gcrawl"
 	conditions = map[string]interface{}{ //  https://github.com/louzhu123/gcrawl
 		"position": "后端开发",
 	}
 )
 
 func main() {
-	var page = 1
+	var page = 681
 
 	for {
-		if conditions["page"] == 2000 {
+		if page == 2000 {
 			break
 		}
 
